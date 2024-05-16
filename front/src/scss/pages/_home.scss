@@ -1,0 +1,185 @@
+.home_background {
+    width: 100%;
+    height: 600px;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg.webp");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+    h1 {
+        font-size: 50px;
+        color: white;
+        font-family: inherit;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    span {
+        color: yellow;
+   
+
+    }
+
+}
+
+.text_box {
+    width: 100%;
+    // height: 200px;
+    // background-color: forestgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'HelveticaNeueLTPro', sans-serif;
+    .text_welcome_box{
+        width: 50%;
+        // height: 50px;
+        // background-color: red;
+        .text_icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 150px;
+            i{
+                padding: 1rem 0;
+              font-size: 50px;
+              color: gray;
+
+            }
+        }
+        .text_welcome{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: darkmagenta;
+            font-size: 40px;
+            gap: 20px;
+        div{
+            height: 2px;
+            width: 30%;
+            background-color: rgb(255, 187, 0);
+        }
+        }
+    }
+    .text_item_contain{
+        width: 80%;
+        // height: 200px;
+        // background-color: darkcyan;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 20px;
+        .text_year_item{
+            width: 30%;
+            height: 200px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            div{
+                width: 80%;
+                text-align: center;
+                h5{
+                    font-size: 30px;
+                   padding: 1rem;
+                }
+                p{
+                    color: grey;
+                    line-height: 1.7;
+                }
+            }
+        }
+    }
+}
+.testemotional_background{
+    width: 100%;
+    height: 750px;
+    background-color: greenyellow;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+    background-size: cover;
+    .testemotional_overlay{
+        width: 100%;
+        height: 750px;
+        background-color: rgba(255, 0, 0, 0.144);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .testemotinal_icon_box{
+            width: 50%;
+            // height: 100px;
+            // background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                font-size: 50px;
+                color: white;
+            }
+        }
+        .testemotional_text{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: darkmagenta;
+            font-size: 40px;
+            gap: 20px;
+            padding: 2rem 0;
+        div{
+            height: 2px;
+            width: 30%;
+            background-color: rgb(255, 187, 0);
+        }
+        p{
+            color: white;
+            font-size: 50px;
+        }
+
+        }
+        .testemotinal_paragraf{
+            width: 65%;
+            text-align: center;
+            font-size: 1.39rem;
+            color: white;
+            padding: 4rem 0;
+            line-height: 1.5;
+        }
+        .testemotinal_foot_text{
+            padding: 2rem 0;
+            font-size: 20px;
+            p{
+                color: rgb(255, 187, 0);
+            }
+            span{
+                color: white;
+            }
+        }
+    }
+}
+.services_background{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 0.144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .services_icon_box{
+        width: 50%;
+        height: 100px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        i{
+            font-size: 50px;
+        }
+    }
+    
+}
